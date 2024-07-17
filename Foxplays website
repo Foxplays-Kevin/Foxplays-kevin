@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Fan Art's</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FDF5E6; /* Light fox fur color */
+            color: #8B4513; /* Fox brown color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF4500; /* Fox orange color */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #8B4513; /* Fox brown color */
+        }
+        .upload-button {
+            background-color: #FF4500; /* Fox orange color */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Good Fan Art's</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to The Good Fan Art's, a place where I share and celebrate amazing fan art from various fandoms. Whether you are a fan artist or an admirer, you are in the right place!</p>
+        </section>
+        <section id="upload">
+            <h2>Upload Your Fan Art</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="fanart" accept="image/*">
+                <br><br>
+                <button class="upload-button" type="submit">Upload</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
